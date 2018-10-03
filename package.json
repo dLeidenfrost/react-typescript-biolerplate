@@ -1,0 +1,38 @@
+{
+  "name": "react-typescript-biolerplate",
+  "version": "1.0.0",
+  "description": "Typescript + react biolerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dLeidenfrost/react-typescript-biolerplate.git"
+  },
+  "keywords": [
+    "typescript",
+    "biolerplate"
+  ],
+  "author": "Diablo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dLeidenfrost/react-typescript-biolerplate/issues"
+  },
+  "homepage": "https://github.com/dLeidenfrost/react-typescript-biolerplate#readme",
+  "dependencies": {
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "typescript": "^3.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "^16.4.14",
+    "@types/react-dom": "^16.0.8",
+    "lite-server": "^2.4.0",
+    "ts-loader": "^5.2.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
