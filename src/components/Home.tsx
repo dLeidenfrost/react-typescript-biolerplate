@@ -1,4 +1,5 @@
 import * as React from "react";
+import "./Home.css";
 
 interface IHomeProps {
   name: string;
@@ -8,7 +9,9 @@ interface IHomeProps {
 export default class Home extends React.Component<IHomeProps, {}> {
   public render() {
     return (
-      <div>This is a test {this.props.name}, an you too {this.props.age}</div>
+      <div className="test">
+        This is a test {this.props.name}, an you too {this.props.age}
+      </div>
     );
   }
 }
